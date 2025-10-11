@@ -1,6 +1,5 @@
 services:
   octoprint:
-    name: octoprint
     image: octoprint/octoprint
     restart: unless-stopped
     ports:
