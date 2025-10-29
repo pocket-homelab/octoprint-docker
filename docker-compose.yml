@@ -14,10 +14,6 @@ services:
     # you add a video device
     #environment:
     #  - ENABLE_MJPG_STREAMER=true
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.octoprint.rule=Host(`octoprint.webserver.local`)"
-      - "traefik.http.routers.octoprint.entrypoints=web"  
   ####
   # uncomment if you wish to edit the configuration files of octoprint
   # refer to docs on configuration editing for more information
