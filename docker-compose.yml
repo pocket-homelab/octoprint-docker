@@ -38,3 +38,7 @@ services:
 
 volumes:
   octoprint:
+
+networks:
+  traefik:
+    external: true
